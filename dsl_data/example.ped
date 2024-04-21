@@ -1,0 +1,16 @@
+def Example1
+    fun substr_len_prod(words: list<str>, word: str) -> int
+        (["ab", "dcb", "ffe", "def", "abd"], "abdcb") -> 18
+        (["apple", "banana", "cherry", "date", "elderberry"], "applebanana") -> 30
+        (["010", "110", "101", "001", "111"], "010110") -> 27
+        ([], "abcde") -> 1
+        (["a", "bcd", "e"], "abcde") -> 3
+
+def Example2
+    fun fizz_buzz_str(num: int) -> str
+    fun fizz_buzz(num: int) -> str
+        (1) -> "1"
+        (3) -> "12Fizz"
+        (5) -> "12Fizz4Buzz"
+        (15) -> "12Fizz4BuzzFizz78FizzBuzz11Fizz1314FizzBuzz"
+        (100) -> "12Fizz4BuzzFizz78FizzBuzz11Fizz1314FizzBuzz1617Fizz19BuzzFizz2223FizzBuzz26Fizz2829FizzBuzz3132Fizz34BuzzFizz3738FizzBuzz41Fizz4344FizzBuzz4647Fizz49BuzzFizz5253FizzBuzz56Fizz5859FizzBuzz6162Fizz64BuzzFizz6768FizzBuzz71Fizz7374FizzBuzz7677Fizz79BuzzFizz8283FizzBuzz86Fizz8889FizzBuzz9192Fizz94BuzzFizz9798FizzBuzz"
